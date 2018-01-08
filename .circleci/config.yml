@@ -11,5 +11,8 @@ jobs:
       - run:
           name: Short
           command: cp short.xml /tmp/test-results/junit/test-results.xml
+      - run:
+          name: certs
+          command: apk add --update ca-certificates openssl && update-ca-certificates
       - store_test_results:
           path: /tmp/test-results
