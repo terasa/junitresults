@@ -12,6 +12,6 @@ jobs:
           name: Short
           command: cp short.xml /tmp/phpunit/reports/junit.xml
       - store_test_results:
-          path: /tmp/phpunit
+          path: /tmp/phpunit/reports/junit.xml
           
       
