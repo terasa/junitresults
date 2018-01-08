@@ -7,10 +7,10 @@ jobs:
       - checkout
       - run:
           name: mkdir
-          command: mkdir -p /tmp/phpunit
+          command: mkdir -p /tmp/phpunitjunit
       - run:
           name: Short
-          command: cp short.xml /tmp/phpunit/junit.xml
+          command: cp short.xml /tmp/phpunit/junit/junit.xml
       - store_test_results:
           path: /tmp/phpunit
           
