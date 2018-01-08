@@ -15,8 +15,6 @@ jobs:
           name: Short
           command: echo "2nd"
       - store_test_results:
-          path: tests.xml
-      - store_test_results:
-          path: short.xml
+          path: ~
           
       
