@@ -13,5 +13,3 @@ jobs:
           command: cp short.xml /tmp/test-results/junit/test-results.xml
       - store_test_results:
           path: /tmp/test-results
-          
-      
