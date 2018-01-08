@@ -13,4 +13,4 @@ jobs:
           command: cp tests.xml store_test_results/tests.xml
       - run:
           name: Short
-          command: sp short.xml store_test_results/short.xml
+          command: cp short.xml store_test_results/short.xml
