@@ -9,11 +9,8 @@ jobs:
           name: mkdir
           command: mkdir -p ~/phpunit
       - run:
-          name: Tests
-          command: cp tests.xml ~/phpunit/tests.xml
-      - run:
           name: Short
-          command: cp short.xml ~/phpunit/short.xml
+          command: cp short.xml ~/phpunit/junit.xml
       - store_test_results:
           path: ~/phpunit
           
