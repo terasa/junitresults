@@ -1,0 +1,13 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: debian:stretch
+    steps:
+      - checkout
+      - run:
+          name: Tests
+          command: cp tests.xml store_test_results/tests.xml
+      - run:
+          name: Short
+          command: sp short.xml store_test_results/short.xml
