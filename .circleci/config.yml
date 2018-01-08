@@ -7,7 +7,7 @@ jobs:
       - checkout
       - run:
           name: mkdir
-          command: mkdir -p /tmp/phpunitjunit
+          command: mkdir -p /tmp/phpunit/junit
       - run:
           name: Short
           command: cp short.xml /tmp/phpunit/junit/junit.xml
