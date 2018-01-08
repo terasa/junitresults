@@ -10,13 +10,13 @@ jobs:
           command: mkdir store_test_results
       - run:
           name: Tests
-          command: cp tests.xml store_test_results/tests.xml
+          command: echo "1st"
       - run:
           name: Short
-          command: cp short.xml store_test_results/short.xml
+          command: echo "2nd"
       - store_test_results:
-          path: /tests.xml
+          path: tests.xml
       - store_test_results:
-          path: /short.xml
+          path: short.xml
           
       
