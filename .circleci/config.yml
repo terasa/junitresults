@@ -6,6 +6,9 @@ jobs:
     steps:
       - checkout
       - run:
+          name: mkdir
+          command: mkdir store_test_results
+      - run:
           name: Tests
           command: cp tests.xml store_test_results/tests.xml
       - run:
