@@ -1,7 +1,8 @@
 repo_name: terasa/junitresults
 report_id: 8c74c4377eef3289d5c1203eab134efe
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-09T14:54:56+00:00'
+timestamp: '2024-01-04T14:55:46+00:00'
 requested_by: terasa
 provider: github
 branch: master
@@ -15,6 +16,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/190/CvqrSSFs_400x400.jpg
+  detection_source_url: https://github.com/terasa/junitresults/blob/master/.circleci/config.yml
   detection_source: ".circleci/config.yml"
   last_updated_by: Teresa Rajda
   last_updated_on: 2018-01-08 07:41:27.000000000 Z
@@ -26,4 +28,5 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/terasa/junitresults
   detection_source: Repo Metadata
